@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Miniproject/style.css">
+    
+</head>
+<body>
+    <body>
+        <div class="container-form">
+            <div class="frm">
+            <div id="logo">
+                <a href="index.html" target="">
+                    <img src="../Miniproject/Images/logo.jpg" alt="Cosplay Store">
+                </a>
+            </div>
+            <div class="form">
+                <h1>Sign Up</h1>
+                <h5>Welcome to our - Cosplay Anime Store</h5>
+                <form action="" method="get">
+
+                    <p><label for="name">Name</label></p>
+                        <input type="text" id="Name" onblur="validate1()"><br>
+                    <b id="error1"></b>
+
+                    <p><label for="userName">User Name</label></p>
+                        <input type="text" id="userName" onblur="validate2()"><br>
+                    <b id="error2"></b>  
+
+                    <p><label for="email">Email Address</label></p>
+                        <input type="email" id="Email" onblur="validate()" ><br>
+                    <b id="error3"></b>
+
+                    <p><label for="password">Password</label></p>
+                        <input type="password" id="password" onblur="validate4()"><br>
+                    <b id="error4"></b>
+                    <br><br><br>
+                    <button type="submit" id="btn">Sign Up Now</button>
+                    <p>Already a member? <a href="login.html">Log in</a></p>
+                </form>
+            </div>
+            </div>
+        </div>
+        <script src="../Miniproject/main.js"></script>
+    </body>
+</body>
+</html>
